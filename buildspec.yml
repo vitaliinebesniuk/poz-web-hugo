@@ -10,7 +10,6 @@ phases:
     commands:                                                                 
       - cd /tmp
       - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-      - echo "${HUGO_SHA256}  /tmp/hugo.tar.gz" | sha256sum -c -
       - tar -xzf hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
       - mv hugo /data/bin/hugo
       - cd - 
