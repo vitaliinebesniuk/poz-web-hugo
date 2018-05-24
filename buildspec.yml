@@ -21,5 +21,4 @@ phases:
     commands:
       - aws s3 sync --delete public s3://pozitiff.mort-vivant.me --region eu-central-1 --cache-control max-age=604800
       - echo Build completed on `date`
-      - aws sns publish --topic-arn $SNS_ARN_subject --TOPIC 'AWS CodeBuild - Build Completed'
- --message 'The build has completed. 
+--message 'The build has completed. 
