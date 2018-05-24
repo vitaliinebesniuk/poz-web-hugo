@@ -1,0 +1,13 @@
+baseURL = "http://dev.pozitiff.me/"
+languageCode = "en-us"
+title = "PozitiFF Information Technologies"
+theme = "pozitiff-dev"
+
+[params]
+  tagline1 = "POSITIVE AGENCY"
+  tagline2 = "WITH"
+  tagline3 = "\"CAN DO\""
+  tagline4 = "ATTITUDE"
+  description1 = "Our PozitiFF Dev team will help you with any front-end,"
+  description2 = "back-end or devOps processes"
+  author = "PozitiFF LTD."

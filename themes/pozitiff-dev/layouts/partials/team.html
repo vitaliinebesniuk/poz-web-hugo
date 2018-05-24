@@ -1,0 +1,34 @@
+<section class="section-team" id="team">
+  <div class="container">
+    <div class="team uk-text-center uk-flex uk-flex-around uk-flex-center uk-flex-top@xl uk-flex-middle@s">
+      {{ range $.Site.Data.members.top }}
+        {{ partial "top-member.html" . }}
+      {{ end }}
+    </div>
+    <div class="team first-row uk-text-center uk-flex uk-flex-around uk-flex-center uk-flex-top@xl uk-flex-middle@s">
+      {{ range $.Site.Data.members.first }}
+        {{ partial "member.html" . }}
+      {{ end }}
+    </div>
+    <div class="team first-row uk-text-center uk-flex uk-flex-around uk-flex-center uk-flex-top@xl uk-flex-middle@s">
+      {{ range $.Site.Data.members.second }}
+        {{ partial "member.html" . }}
+      {{ end }}
+    </div>
+    <div class="team first-row uk-text-center uk-flex uk-flex-around uk-flex-center uk-flex-top@xl uk-flex-middle@s">
+      {{ range $.Site.Data.members.third }}
+        {{ partial "member.html" . }}
+      {{ end }}
+    </div>
+    <div class="team first-row uk-text-center uk-flex uk-flex-around uk-flex-center uk-flex-top@xl uk-flex-middle@s">
+      {{ range $.Site.Data.members.fourth }}
+        {{ partial "member.html" . }}
+      {{ end }}
+    </div>
+    <div class="team first-row uk-text-center uk-flex uk-flex-around uk-flex-center uk-flex-top@xl uk-flex-middle@s">
+      {{ range $.Site.Data.members.fifth }}
+        {{ partial "member.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>

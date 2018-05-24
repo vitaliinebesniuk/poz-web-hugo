@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="css/normalize.min.css">
+<link rel="stylesheet" href="css/uikit.min.css"/>
+<link rel="stylesheet" href="css/css.min.css">
+<link rel="stylesheet" href="css/icons.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/script.min.js" async></script>
+<script src="js/uikit.min.js" async></script>
+<script src="js/uikit-icons.min.js" async></script>
+<script src="js/jquery.bxslider.min.js" async></script>
+<!-- Start of Rocket.Chat Livechat Script -->
+<script type="text/javascript" async>
+  (function(w, d, s, u) {
+    w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
+    var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
+    j.async = true; j.src = 'https://pozitiff.chat/packages/rocketchat_livechat/assets/rocketchat-livechat.min.js?_=201702160944';
+    h.parentNode.insertBefore(j, h);
+  })(window, document, 'script', 'https://pozitiff.chat/livechat');
+  RocketChat(function() {
+    this.setTheme({
+      color: '#94CF1C', // widget title background color
+      fontColor: '#FFFFFF' // widget title font color
+    });
+    this.setCustomField('Origin', 'dev.pozitiff.me');
+//    this.setCustomField('fieldName2', 'A value set just once', false); // you can pass false as the third parameter to not overwrite an already set value
+  });
+</script>
+<!-- End of Rocket.Chat Livechat Script -->
